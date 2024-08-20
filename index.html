@@ -10,13 +10,13 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-
     <title>Phone Hunter</title>
   </head>
   <body>
+    <!-- Navbar -->
     <header class="w-[90%] mx-auto my-4">
       <nav class="flex justify-between">
-        <h3 class="text-xl font-bold">Hot Gadgets</h3>
+        <h3 class="text-lg md:text-xl font-bold">Hot Gadgets</h3>
         <button class="bg-[#0D6EFD] px-4 py-2 text-white rounded-md">
           Sign up
         </button>
@@ -28,8 +28,8 @@
         class="w-[90%] mx-auto flex flex-col justify-center items-center mt-12"
       >
         <div class="text-center">
-          <h1 class="text-5xl font-bold">Apple Iphone 13 Pro Max</h1>
-          <p class="w-[60%] mx-auto my-4 text-[#706F6F] text-sm">
+          <h1 class="text-2xl md:text-5xl font-bold">Apple Iphone 13 Pro Max</h1>
+          <p class="md:w-[60%] mx-auto my-4 text-[#706F6F] text-sm">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humou.
@@ -40,7 +40,7 @@
         </div>
         <div class="mt-12">
           <img
-            class="max-w-[70%] mx-auto"
+            class="md:max-w-[70%] mx-auto"
             src="images/Group 48095420.png"
             alt=""
           />
@@ -49,7 +49,7 @@
       <!-- search input -->
       <div class="flex justify-center my-12 text-center w-full">
         <div class="w-full flex justify-center flex-col">
-          <h2 class="text-3xl">Search your phone</h2>
+          <h2 class="text-xl md:text-2xl font-bold">Search your phone</h2>
           <div class="flex justify-center mt-6">
             <input
               type="text"
@@ -63,8 +63,8 @@
       </div>
 
       <!-- search result -->
-      <section class="w-[70%] mx-auto my-12">
-        <div id="phone-container" class="grid grid-cols-3 gap-8"></div>
+      <section class="w-[90%] md:w-[70%] mx-auto my-12">
+        <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center"></div>
         <button class="btn hidden block m-auto mt-12" id="show-all-btn">
           Show All
         </button>

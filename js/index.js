@@ -27,7 +27,7 @@ const displayPhones = (phones) => {
   phones.forEach((phone) => {
     console.log(phone)
     const phoneCard = document.createElement("div");
-    phoneCard.classList = `card bg-base-100 w-80 border`;
+    phoneCard.classList = `card bg-base-100 w-full lg:w-80 border `;
     phoneCard.innerHTML = `
         <figure class="bg-[#0d6dfd1b] m-4">
             <img class="py-4"
